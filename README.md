@@ -16,22 +16,34 @@
 - jieba (如果进行中文文本分析)
 
 ## 安装指南
+
+### 准备环境
+确保您的计算机上安装了Python 3.x。您可以从[Python官网](https://www.python.org/downloads/)下载和安装。
+
+### 安装Chrome浏览器
+Selenium需要一个浏览器和相应的WebDriver来执行。如果您还没有安装Chrome浏览器，请从[Chrome官方网站](https://www.google.com/chrome/)下载并安装它。
+
+### 安装Chrome WebDriver
+1. 需要下载与您的Chrome浏览器版本相对应的Chrome WebDriver。您可以在[Chrome WebDriver官网](https://sites.google.com/a/chromium.org/chromedriver/)查找适合您浏览器版本的WebDriver。
+2. 下载后，将WebDriver文件放置在您的系统路径中，或者您可以在运行爬虫脚本时指定其路径。
+
+### 安装项目依赖
 1. 克隆仓库到本地：
    ```
    git clone https://github.com/azhuquq/BOSS_Analysis.git
    ```
-2. 安装所需依赖：
+2. 在命令行中导航到项目文件夹，并安装所需依赖：
    ```
    pip install -r requirements.txt
    ```
 
 ## 使用说明
-1. 修改配置文件（如果有的话），设置爬虫参数。
+1. 修改配置文件（如果有的话），包括设置爬虫参数和WebDriver的路径。
 2. 运行爬虫脚本：
    ```
    python AIO_Workflow.py
    ```
-3. 查看生成的数据和可视化结果。
+3. 脚本运行后，查看生成的数据和可视化结果。
 
 ## 注意事项
 - 确保你有合适的网络环境以及BOSS直聘网站的访问权限。
