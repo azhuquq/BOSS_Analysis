@@ -1,6 +1,3 @@
-# BOSS_Analysis
-A BOSS zhipin crawler utilizing Selenium for data extraction, coupled with data analysis and visualization using Matplotlib.
-
 # BOSS直聘数据爬虫及分析
 
 ## 项目介绍
