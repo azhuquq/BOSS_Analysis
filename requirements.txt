@@ -1,0 +1,4 @@
+pandas
+jieba
+selenium
+matplotlib
