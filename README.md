@@ -24,8 +24,8 @@
 Selenium需要一个浏览器和相应的WebDriver来执行。如果您还没有安装Chrome浏览器，请从[Chrome官方网站](https://www.google.com/chrome/)下载并安装它。
 
 ### 安装Chrome WebDriver
-1. 需要下载与您的Chrome浏览器版本相对应的Chrome WebDriver。您可以在[Chrome WebDriver官网](https://sites.google.com/a/chromium.org/chromedriver/)查找适合您浏览器版本的WebDriver。
-2. 下载后，将WebDriver文件放置在您的系统路径中，或者您可以在运行爬虫脚本时指定其路径。
+1. 需要下载与您的Chrome浏览器版本相对应的Chrome WebDriver。您可以在[Chrome For Testing](https://googlechromelabs.github.io/chrome-for-testing/)查找适合您浏览器版本的WebDriver。
+2. 下载后，将WebDriver文件放置在Python安装目录中，或者您可以在运行爬虫脚本时指定其路径。
 
 ### 安装项目依赖
 1. 克隆仓库到本地：
@@ -38,7 +38,7 @@ Selenium需要一个浏览器和相应的WebDriver来执行。如果您还没有
    ```
 
 ## 使用说明
-1. 修改配置文件（如果有的话），包括设置爬虫参数和WebDriver的路径。
+1. 修改配置文件，包括设置爬虫参数和WebDriver的路径。
 2. 运行爬虫脚本：
    ```
    python AIO_Workflow.py
